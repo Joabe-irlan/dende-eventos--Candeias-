@@ -4,7 +4,7 @@ class ConjuntoDeDados:
         self._validar_dados(dados)
         self.dados = dados
 
-     def _validar_dados(self, dados):
+    def _validar_dados(self, dados):
         if not isinstance (dados, dict):
             raise TypeError ("Os dados devem estar em formato de dicionario")
             if len (dados) == 0:
@@ -19,15 +19,15 @@ class ConjuntoDeDados:
                         raise ValueError ("Essas colunas nao podem estar vazias")
 
 
-     def obter_coluna (self, coluna):
+    def obter_coluna (self, coluna):
         if coluna not in self.dados:
             raise ValueError (f"A coluna '{coluna}' nao existe")
             return self.dados [coluna]
 
-     def listar_colunas (self):
-        return list(self.dados.chaves())
+    def listar_colunas (self):
+        return list(self.dados.keys())
 
-     def quantidade_linhas (self):
-        for valores in self.dados.valores():
+    def quantidade_linhas (self):
+        for valores in self.dados.values():
             return len(valores)
 
