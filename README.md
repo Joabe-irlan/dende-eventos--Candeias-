@@ -1,4 +1,4 @@
-dendê-statistics 🌴📊
+Dendê-statistics 🌴📊
 Este projeto é um template base para a Primeira Atividade da disciplina de Mineração de Dados, ministrada no Centro Universitário de Excelência (UNEX) — Unidade Feira de Santana.
 
 O objetivo do projeto é apoiar os estudantes no desenvolvimento de conceitos fundamentais de Estatística Descritiva, aplicados à análise de dados, utilizando a linguagem Python e boas práticas de programação orientada a objetos.
