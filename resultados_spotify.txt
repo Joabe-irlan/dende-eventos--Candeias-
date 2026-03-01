@@ -11,7 +11,6 @@ Métodos utilizados:
   • variance() → Variância populacional
   • stdev()    → Desvio padrão populacional
   • itemset()  → Valores únicos
-  • covariance() → Covariância entre colunas
   • absolute_frequency() → Frequência absoluta 
   • relative_frequency() → Frequência relativa
   • cumulative_frequency() → Frequência acumulada 
@@ -46,8 +45,6 @@ COLUNA: track_popularity
     71.0: 2.21%
     67.0: 2.19%
     70.0: 2.12%
-  FREQ ACUMULADA FINAL     : 8582
-  FREQ ACUMULADA REL FINAL : 100.0
   TOTAL AMOSTRAS           : 8582
 
 ────────────────────────────────────────────────────────────
@@ -74,8 +71,6 @@ COLUNA: artist_popularity
     85.0: 3.82%
     100.0: 3.78%
     83.0: 3.25%
-  FREQ ACUMULADA FINAL     : 8582
-  FREQ ACUMULADA REL FINAL : 100.0
   TOTAL AMOSTRAS           : 8582
 
 ────────────────────────────────────────────────────────────
@@ -102,8 +97,6 @@ COLUNA: artist_followers
     145443567.0: 0.99%
     112918137.0: 0.7%
     51773650.0: 0.51%
-  FREQ ACUMULADA FINAL     : 8582
-  FREQ ACUMULADA REL FINAL : 100.0
   TOTAL AMOSTRAS           : 8582
 
 ────────────────────────────────────────────────────────────
@@ -130,8 +123,6 @@ COLUNA: album_total_tracks
     16.0: 6.22%
     13.0: 6.15%
     14.0: 5.83%
-  FREQ ACUMULADA FINAL     : 8582
-  FREQ ACUMULADA REL FINAL : 100.0
   TOTAL AMOSTRAS           : 8582
 
 ────────────────────────────────────────────────────────────
@@ -158,7 +149,5 @@ COLUNA: track_number
     3.0: 7.99%
     4.0: 6.57%
     5.0: 5.59%
-  FREQ ACUMULADA FINAL     : 8582
-  FREQ ACUMULADA REL FINAL : 100.0
   TOTAL AMOSTRAS           : 8582
 
