@@ -26,17 +26,15 @@ Mediana
 Moda
 Variância
 Desvio padrão
-Covariância
-Frequências absoluta, relativa e acumulada
-Probabilidade condicional
-Quartis
-Histogramas por buckets
+Frequências absoluta e relativa
+Soma e Count
+Minimo e Máximo
 Todos os métodos devem ser implementados sem o uso de bibliotecas estatísticas prontas, reforçando o aprendizado conceitual.
 
 🧑‍🤝‍🧑 Identificação da Equipe
 ⚠️ Esta seção deve ser obrigatoriamente preenchida pelos estudantes
 
-Nome do Grupo: SALVADOR
+Nome do Grupo: Candeias
 - JOABE IRLAN ALMEIDA LOPES
 - SAULO DE MELO RAMOS
 - ÁLEFFY DE ALMEIDA FIGUEIREDO SANTOS
