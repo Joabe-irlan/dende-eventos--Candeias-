@@ -38,3 +38,5 @@ Nome do Grupo: Candeias
 - JOABE IRLAN ALMEIDA LOPES
 - SAULO DE MELO RAMOS
 - ÁLEFFY DE ALMEIDA FIGUEIREDO SANTOS
+- Rafael Jesus Bezerra Cerqueira
+- Levi Ferreira de Oliveira Baptista
