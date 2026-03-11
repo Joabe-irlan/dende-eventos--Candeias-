@@ -21,9 +21,9 @@ def mostrar_dados(dados):
 
  def Main():
 
-     print ()    #=======================================
-     print ()    #usado para corrigir e preparar os dados
-     print ()    #=======================================
+     print ("")    #=======================================
+     print ("")    #usado para corrigir e preparar os dados
+     print ("")    #=======================================
 
      dados = {
          "artista": ["Artista A", "Artista B", "Artista C", "Artista B"],
@@ -35,27 +35,27 @@ def mostrar_dados(dados):
      mostrar_dados(dados)
      preprocessador = Preprocessamento()
 
-     print() #para remover duplicatas
+     print("") #para remover duplicatas
      dados = preprocessador.remover_duplicatas(dados)
 
      mostrar_dados(dados)
 
-     print() #tratar os valores ausentes
+     print("") #tratar os valores ausentes
      dados = preprocessador.tratar_ausentes_media(dados, "popularidade")
      
      mostrar_dados(dados)
 
-     print() #normalizar os dados
+     print("") #normalizar os dados
      dados = preprocessador.normalizar_colunas(dados, "popularidade")
      
      mostrar_dados(dados)
 
-     print() #codifica as categorias
+     print("") #codifica as categorias
      dados = preprocessador.codificar_label(dados, "artista")
 
      mostrar_dados(dados)
 
-     print() #final do processo
+     print("") #final do processo
 
  if __name__ == "__main__":
     main()    
