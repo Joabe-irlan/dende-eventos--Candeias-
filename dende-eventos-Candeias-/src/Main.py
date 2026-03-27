@@ -58,4 +58,4 @@ def mostrar_dados(dados):
      print("") #final do processo
 
  if __name__ == "__main__":
-    main()    
+    Main()    

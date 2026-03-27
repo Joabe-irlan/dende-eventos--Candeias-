@@ -129,12 +129,12 @@ class Estatisticas:
 
 
      def frequencia_relativa (self, coluna):
-        frequencias = self.frequencia_absoluta(coluna)
-        total = self.contar(coluna)
-        frequencia_relativa = {}
-        for valor, quantidade in frequencias.items():
+         frequencias = self.frequencia_absoluta(coluna)
+         total = self.contar(coluna)
+         frequencia_relativa = {}
+         for valor, quantidade in frequencias.items():
             frequencia_relativa[valor] = quantidade / total
-            return frequencia_relativa
+         return frequencia_relativa
 
 
 

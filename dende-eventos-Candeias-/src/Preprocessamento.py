@@ -1,4 +1,4 @@
-from Tratamento_ausentes import TratamentoAusentes
+from Tratamentos_ausentes import TratamentoAusentes
 from Escalonador import Escalonador
 from Codificador import Codificador
 
